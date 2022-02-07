@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import AppRouter from './components/router/AppRouter';
 
 function App() {
-  return <div>Hello world!</div>;
+  return (
+    <Fragment>
+      <AppRouter />
+    </Fragment>
+  );
 }
 
 export default App;
