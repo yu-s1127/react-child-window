@@ -31,6 +31,7 @@ const Main: FC = () => {
   };
 
   const handleOnFocus = () => {
+    console.log(document.hasFocus());
     windowObjects
       .filter((obj) => {
         return obj.window !== null;
